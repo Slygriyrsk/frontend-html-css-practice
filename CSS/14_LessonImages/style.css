@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Begin Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img { display: block;} /* it will adjust the text in bottom of the image*/
+/* End Reset*/
+
+/* Utility Classes */
+.nowrap{
+  white-space: nowrap;
+}
+
+.offscreen {   /*it will move the text to the lest side by 10000px*/ 
+  position: absolute;
+  left: -10000px;
+}
+/* End Utility Classes*/
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    /*background-image: url("img/bubbles.png"), linear-gradient(hsla(207, 85%, 18%, 0.463), hsla(216, 100%, 50%, 0.961), hwb(0 53% 42% / 0.756));/*linear gradient help us to use two or more different colors within the same page*/
+    /*top middle and bottom colors i can add*/
+    /*also we can use background-image : linear gradient(to left/right/bottom, then add color...)*/
+
+    /*background-repeat: repeat-y, no-repeat;/*bubbles repeat on y-axis and second image to not repeat*/
+    /*background-position: right center;/*it will adjust the position of bubbles*/
+    /*background-size: 10%, auto;/*the bubble size will come first and then the size of the gradient will come as per the background image numbering*/
+}
+
+.container {
+  background-color: green;
+  background-image: url("img/map-2176x1451.png");
+  background-repeat: no-repeat; /* repeat, no repeat, repeat-x, repeat-y */
+  background-size: cover; /* it willhelp to expand the whole image into the screen */
+  background-position: bottom right;/*x position and y position eg. top bottom right left etc..*/
+
+}
+
+.hero {
+  border-bottom:2px solid #000;
+  padding: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: hsla(0, 0%, 50%, 0.354); /*this will create the effects on the background image*/
+
+}
+
+.h1 {
+  font-size: 500%;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px black; /*(x-axis, y-axis, blur, color) this is used for the poping of text out of the page i.e, hi i am saharsh is more visible */
+  /* background-color: hsla(0, 0%, 0%, 0.416); hsla will reduce the trasparency of the box
+     padding: 0.25rem;
+  border-radius: 10px; */ 
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img {
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double grey;
+  border-radius: 50%;
+}
+
+.example {
+   margin-top: 1rem;
+   padding-left: 20px;
+   border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+}
+
+.clip {
+  font-weight: 800;
+  font-size: 18rem;
+  text-align: center;
+  background-image: url("img/scenic-2200x1331.png");
+  background-size: 100%;
+  text-transform: uppercase;/*it will uppercase the name*/
+  -webkit-background-clip: text;/*it will adjust the background image upon the text*/
+  color:hsla(0, 0%, 0%, 0.21);
+}

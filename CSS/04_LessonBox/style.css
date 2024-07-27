@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* h1 {
+    border: 2px dashed red;
+    width: 50%;
+     font-size: 2rem; 
+    padding: 1.5rem;
+} */
+
+.container {
+    /* border: 2px dashed green; */
+    /* border: 2px outset green; */
+    border: 10px double green;
+    /* width: 400px; */
+    border-top: 5px solid yellow;
+    border-right: 5px dotted violet;
+    font-size: 1.5rem;
+    margin: 1.5rem 20rem 2rem 10rem;
+    /* margin-top: 1.5rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;*/
+    padding: 1.5rem;
+    font-style: italic;
+    outline: 5px solid purple;
+    /* outline-offset: 5px; */
+    outline-offset: -15px;
+}
+
+.circle{
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 20px;
+    outline: 2px solid yellow;
+    outline-offset: 0.25rem;
+}

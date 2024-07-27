@@ -1,0 +1,28 @@
+
+html {
+    font-size: 22px
+}
+body {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover, a:active {
+    color: blanchedalmond;
+}
+
+
+table tr,th,td,caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

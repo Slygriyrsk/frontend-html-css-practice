@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;  /*this will shift bullets to align with the lists items*/
+    color: orange;
+    line-height: 1.6rem;
+    /* list-style-image: url('../checkmark.png'); */
+}
+
+/* ul li:nth-child(2){
+    color: red;
+} */
+
+ul li:nth-child(odd){
+    color: red;
+}
+
+ul li::marker{    /* this marker will change the color of the 
+                bullets inside the unordered lists */
+color: blueviolet;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1em;
+content: "only $5 >>";
+}

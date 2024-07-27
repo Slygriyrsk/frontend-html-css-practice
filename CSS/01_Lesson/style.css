@@ -1,0 +1,62 @@
+/* universal selector(*) */
+
+* {
+    font-family: monospace;
+    border: 1px solid red;
+}
+
+html{
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+p {
+    font-size: 22px;
+    color: purple;
+}
+
+/* this "important" will 
+enable every paragraph as purple color
+p {
+    font-size: 22px;
+    color: purple!important;
+} */
+
+p{
+    color: green;
+}
+
+/* p span{
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+.highlight{
+    text-transform: uppercase;
+    background-color: yellow;
+}
+
+h1, h2{
+    color: blue;
+}
+
+body{
+    font-size: 22px;
+    border: 3px solid black;
+}
+
+.gray{
+    color: gray;
+}
+
+#second{
+    font-style: italic;
+}
+

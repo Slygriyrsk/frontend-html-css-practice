@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-color: #475569;
+  background-image: radial-gradient(whitesmoke, #475569);
+
+  display: flex;
+  flex-direction: column;
+}
+
+header, nav, main, footer{
+    display: grid;
+    place-content: center;
+}
+
+header, footer {
+    position: sticky;
+    background-color: rgb(8, 84, 84);
+    color: whitesmoke;
+}
+
+header {
+    top: 0;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 2px solid #000;
+}
+
+footer{
+    bottom: 0;
+}
+
+main{
+    flex-grow: 1;
+}
+
+/*the main role of media query is to adjust the pixels acc to the device which we are using like phone, laptop, ipad, etc..*/
+
+/* || SMALL*/
+@media screen and (min-width: 576px) /*(orientation: landscape)*/ /*(min-aspect-ratio: 7/4)*/{
+    /*CSS RULES*/
+
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+
+/* || MEDIUM*/
+@media screen and (min-width: 768px){
+    body{
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke, gold);
+    }
+}
+
+
+/* || LARGE*/
+@media screen and (min-width: 992px){
+    body{
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke, firebrick);
+    }
+}
+
+
+/* || XL*/
+@media screen and (min-width: 1200px){
+    body{
+        background-color: rebeccapurple;
+        background-image: radial-gradient(whitesmoke, rebeccapurple);
+    }
+}
+
+
+/* || MOBILE DEVICE LANDSCAPE*/
+@media screen and (max-height: 452px) and (min-aspect-ratio: 7/4){
+    body{
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+}

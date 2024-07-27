@@ -1,0 +1,19 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    /* background-color: greenyellow; */
+    background: papayawhip;
+    color: darkmagenta;
+}
+
+p{
+    /* color: rgba(0,0,0,0.5); */
+    /* color: rgba(0,0,0,0); */
+    /* color: rgb(0,255,0); */
+    /* color: #000000; */
+    /* color: #00ff00;/*this is same as rgb just */
+                       /* expect number f is coming.
+                       it is hexadeximal representation.*/
+    color: #FF9F1C;/* ref coolors.co */
+}

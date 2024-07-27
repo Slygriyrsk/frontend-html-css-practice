@@ -1,0 +1,30 @@
+body{
+    padding: 15%;
+    font-size: 22px;
+    font-family: cursive;
+    color: red;
+    background-color: antiquewhite;
+}
+
+input, button{
+    font: inherit;
+}
+
+/* p{
+    text-decoration: underline; 
+    text-decoration: line-through;
+    text-align: center; 
+    text-align: justify;
+    text-overflow: ellipsis;
+    text-shadow: 25%;
+    text-transform: capitalize;
+} */
+
+p{
+    /* text-indent: 1em; */
+    line-height: 1.5;
+    letter-spacing: 0.25em;
+    word-spacing: 2em;
+    font-weight: 900;    /*it will bold the characters*/
+    font-style: oblique;
+}

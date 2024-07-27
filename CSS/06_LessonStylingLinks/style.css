@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main{
+    opacity: 0.9;
+} */
+
+a:visited {
+    color: yellowgreen;
+    color: hsl(189, 90%, 60%, 0.8);
+}
+
+a:hover, a:focus {
+    /* color: orange; */
+    background: gold;
+    opacity: 2; /* Opacity is the degree to which content behind an element
+                   is hidden, and is the opposite of transparency.*/
+}
+
+a:active{
+    color: red;
+}
+
+a{
+    /* text-decoration: none;
+    cursor:pointer;
+    color: blue; */
+    color: black;
+}

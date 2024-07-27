@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: beige;
+    border: 1px solid yellow;
+    padding: 1rem;
+    overflow: auto;  /* this will help us to adjust the size of the float box with sync with the paragraph */
+    display: flow-root;  /* this is also a method by which we can do the above operation succesfully */
+}

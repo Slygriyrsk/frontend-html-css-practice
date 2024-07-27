@@ -1,0 +1,13 @@
+a:visited{
+    color: blue;
+}
+a:active, a:hover{
+    color: aqua;
+}
+
+table tr,th,td,caption{
+    border: 2px solid #e00b0b;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

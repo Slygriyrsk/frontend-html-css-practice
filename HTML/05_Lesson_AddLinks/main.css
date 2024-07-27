@@ -1,0 +1,20 @@
+
+html {
+    font-size: 22px
+}
+body {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover, a:active {
+    color: blanchedalmond;
+}
